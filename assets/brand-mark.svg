@@ -1,27 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
-  <title id="title">에드스파크 icon</title>
-  <desc id="desc">Navy rounded icon with 에드스파크 A symbol.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="t d">
+  <title id="t">MABASA</title>
+  <desc id="d">Navy rounded tile with a bold white M monogram (interim mark).</desc>
   <defs>
-    <linearGradient id="bg" x1="26" y1="20" x2="226" y2="236" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#061B3D"/>
-      <stop offset="1" stop-color="#073466"/>
-    </linearGradient>
-    <linearGradient id="curveBlue" x1="50" y1="157" x2="190" y2="96" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#8FD3FF"/>
-      <stop offset="0.48" stop-color="#2494FF"/>
-      <stop offset="1" stop-color="#58A6FF"/>
-    </linearGradient>
-    <linearGradient id="legBlue" x1="118" y1="82" x2="170" y2="174" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#58A6FF"/>
-      <stop offset="1" stop-color="#0B7CFF"/>
+    <linearGradient id="mb" x1="24" y1="20" x2="232" y2="236" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1f4a86"/>
+      <stop offset="1" stop-color="#122f57"/>
     </linearGradient>
   </defs>
-  <rect x="25" y="25" width="206" height="206" rx="38" fill="url(#bg)"/>
-  <g transform="translate(38 42) scale(0.72)">
-    <path d="M118 0L42 190H86L121 100L153 190H200L125 0H118Z" fill="#FFFFFF"/>
-    <path d="M151 104L196 190H238L184 82L151 104Z" fill="url(#legBlue)"/>
-    <path d="M34 190C83 141 143 113 248 90" fill="none" stroke="url(#curveBlue)" stroke-width="13" stroke-linecap="round"/>
-    <path d="M18 216C73 157 142 122 256 98" fill="none" stroke="#8FD3FF" stroke-width="8" stroke-linecap="round" opacity="0.9"/>
-    <path d="M279 70L286 91L307 98L286 105L279 126L272 105L251 98L272 91Z" fill="#8FD3FF"/>
-  </g>
+  <rect x="16" y="16" width="224" height="224" rx="52" fill="url(#mb)"/>
+  <!-- M monogram: two panels meeting at a center notch -->
+  <path d="M60 188 V78 L92 78 L128 146 L164 78 L196 78 V188 L168 188 V126 L134 190 L122 190 L88 126 V188 Z"
+        fill="#ffffff"/>
+  <!-- subtle top-center notch accent -->
+  <path d="M120 78 L128 96 L136 78 Z" fill="#9cc0f2"/>
 </svg>

@@ -18,7 +18,7 @@ create table if not exists public.consultation_requests (
   user_agent text
 );
 
-comment on table public.consultation_requests is 'Adspark landing page consultation requests. Access only through the serverless API.';
+comment on table public.consultation_requests is 'MABASA homepage consultation requests. Access only through the serverless API.';
 
 alter table public.consultation_requests enable row level security;
 
@@ -60,7 +60,7 @@ create table if not exists public.consultation_rate_limits (
   source text
 );
 
-comment on table public.consultation_rate_limits is 'Hashed rate-limit records for Adspark landing page consultation requests.';
+comment on table public.consultation_rate_limits is 'Hashed rate-limit records for MABASA homepage consultation requests.';
 
 create index if not exists consultation_rate_limits_ip_hash_created_at_idx
 on public.consultation_rate_limits (ip_hash, created_at desc);
